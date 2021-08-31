@@ -51,6 +51,7 @@ ul{
 .header {
     display: flex;
     position: relative;
+    background-color: rgb(169, 112, 223);
 }
 
 /*intro*/
