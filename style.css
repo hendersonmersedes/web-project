@@ -23,11 +23,13 @@ ul{
 }
 
 .links {
-    color: teal;
+    color: #000;
     flex:2;
     text-decoration: none;
     display: flex;
     padding-right: 200px;
+    list-style: none;
+    
 }
 
 .links:hover{
