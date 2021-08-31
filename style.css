@@ -1,0 +1,197 @@
+
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+/* navigation */
+
+.navigation {
+    display: flex;
+    align-content: stretch;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.links {
+    color: teal;
+    flex:2;
+    text-decoration: none;
+    display: flex;
+    padding-right: 200px;
+}
+
+.links:hover{
+    color: white;
+}
+.face {
+    position: relative;
+    width: 400px;
+}
+
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.logo{
+    margin-top: 30px;
+    width: 100px;
+}
+
+.header {
+    display: flex;
+    position: relative;
+}
+
+/*intro*/
+
+.box {
+    display: flex;
+    color: white;
+    width: 80%;
+    margin-top: 200px;
+    font-size: 40px;
+    margin-left: 200px;
+}
+
+.text {
+    color: teal;
+}
+
+.selfie {
+    margin-left: 50px;
+}
+
+.face {
+    border-radius: 40%;
+}
+
+
+/*AboutMe*/
+
+.box2 {
+    display: flex;
+    color:#000;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-content: center;
+    margin-top: 300px;
+    width:90%;
+    background-color:teal;
+    padding-bottom: 50px;
+}
+
+.about-text {
+    color: black;
+    margin: auto;
+    justify-content: left;
+    font-size: 20px;
+    margin-right: 300px;
+    margin-left: 100px;
+}
+.aboutme {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+p {
+    align-content: center;
+}
+.network img{
+    width: 300px;
+    border-radius: 40%;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+
+
+
+
+/*Projects*/
+
+.side {
+    color:teal;
+    text-align: center;
+   margin-top: 300px;
+   margin-bottom: 130px;
+
+}
+
+.projects{
+    color: white;
+    flex-basis: 31%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.sweets {
+    flex-basis: 32%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position:relative;
+
+}
+
+.sweets img {
+    width: 75%;
+    padding-top: 10px;
+}
+
+.db {
+    flex-basis: 32%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position:relative;
+}
+
+.dbdb img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+.mine {
+    flex-basis: 32%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position:relative;
+}
+
+.mine img{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.youtube{
+    color: teal;
+    margin-left: 30%;
+    margin-top: -30%;
+
+}
+
+.yt {
+    margin-bottom: 30px;
+}
+/*form*/
+h3 {
+    color: white;
+    margin-left: 50%;
+    margin-top: 20%;
+}
+
+.email{
+    color: white;
+}
